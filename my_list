@@ -1,0 +1,12 @@
+my_list=[10,20,30,40,2,5,3]
+a=int(len(my_list))
+x=int(input('Enter your position'))
+i=0
+if x<0 or x>=a:
+    print("index out of range")
+else:
+    while i<a:
+        if i==x:
+            print(my_list[i])
+        i+=1
+print("programme ended")
