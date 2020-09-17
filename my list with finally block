@@ -1,0 +1,10 @@
+my_list=[10,20,30,40,2,5,3]
+x=int(input('Enter your position'))
+try:
+    print(my_list[x])
+except IndexError as e:
+    print(e)
+finally:
+    print("programme ended")
+
+
